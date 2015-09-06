@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>PhoneGap Demo App</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+<div class="container">
+	<div class="panel panel-info">
+		<div class="panel-heading">
+			<h3 class="panel-title">Apparaatinformatie</h3>
+		</div>
+		<table class="table table-striped">
+			<tr>
+				<td>Cordova versie</td>
+				<td><span id="deviceCordova"></span></td>
+			</tr>
+			<tr>
+				<td>Device Model</td>
+				<td><span id="deviceModel"></span></td>
+			</tr>
+			<tr>
+				<td>Device Platform</td>
+				<td><span id="devicePlatform"></span></td>
+			</tr>
+			<tr>
+				<td>Device UUID</td>
+				<td><span id="deviceUuid"></span></td>
+			</tr>
+			<tr>
+				<td>Device Versie</td>
+				<td><span id="deviceVersion"></span></td>
+			</tr>
+		</table>
+	</div>
+	<hr />
+	<a href="index.html" class="btn btn-block btn-lg btn-success">Start</a>
+</div>
+<!-- Scripts -->
+<script src="cordova.js"></script>
+<script src="js/lib/jquery.js"></script>
+<script src="js/pg.device.js"></script>
+</body>
+</html>

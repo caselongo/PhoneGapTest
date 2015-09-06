@@ -1,0 +1,8 @@
+/* Eigen stijlen, aanvullend aan Twitter Bootstrap */
+
+/*PhoneGap Logo */
+.pgLogo {
+    width: 128px;
+    float: left;
+    padding: 10px;
+}

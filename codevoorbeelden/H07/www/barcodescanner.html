@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>PhoneGap Demo App</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+<div class="container">
+	<div class="panel panel-info">
+		<div class="panel-heading">
+			<h3 class="panel-title">BarcodeScanner</h3>
+		</div>
+		<h1>Scan een code</h1>
+		<button id="btnScan" class="btn btn-default btn-lg btn-block">
+			Scan
+		</button>
+		<div id="divResult"></div>
+	</div>
+	<hr/>
+	<a href="index.html" class="btn btn-block btn-lg btn-success">Start</a>
+</div>
+<!-- Scripts -->
+<script src="cordova.js"></script>
+<script src="js/lib/jquery.js"></script>
+<script src="js/pg.barcodescanner.js"></script>
+</body>
+</html>

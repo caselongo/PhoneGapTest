@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>PhoneGap Demo App</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+<div class="container">
+	<div class="panel panel-info">
+		<div class="panel-heading">
+			<h3 class="panel-title">InAppBrowser</h3>
+		</div>
+		<p>Deze plug-in opent andere webpagina's binnen de context van de huidige app.
+			Zodra de pagina gesloten wordt, keert u terug in de app.</p>
+
+		<p> Dit voorkomt dat een aparte
+			browser-sessie wordt gestart (via Chrome of Safari) en de gebruiker onbedoeld de
+			app verlaat. Probeer het maar:</p>
+
+		<div id="list" class="btn-group btn-group-lg btn-group-justified" role="group">
+			<a href="#" class="btn btn-warning" data-id="android">Android </a>
+			<a href="#" class="btn btn-warning" data-id="apple">Apple </a>
+			<a href="#" class="btn btn-warning" data-id="winphone">WinPhone </a>
+			<a href="#" class="btn btn-warning" data-id="phonegap">PhoneGap</a>
+		</div>
+	</div>
+	<hr/>
+	<a href="index.html" class="btn btn-block btn-lg btn-success">Start</a>
+</div>
+<!-- Scripts -->
+<script src="cordova.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/pg.inappbrowser.js"></script>
+</body>
+</html>

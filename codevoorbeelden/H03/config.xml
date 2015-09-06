@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Voorbeeld config.xml bij Hoofdstuk 3 van Web Development Library - PhoneGap
+    In dit configuratiebestand zijn de standaarinstellingen aangepast en wordt een
+    eigen icon, splash screen, platform en orientatie aangegeven -->
+
+<widget xmlns="http://www.w3.org/ns/widgets"
+		xmlns:gap="http://phonegap.com/ns/1.0"
+		id="com.kassenaar.demoApp"
+		versionCode="10"
+		version="1.0.0">
+	<!-- versionCode is optional and Android only -->
+
+	<name>PhoneGap Demo App</name>
+
+	<description>
+		PhoneGap Demo App uit Hoofdstuk 3 - Web Development Library - PhoneGap
+	</description>
+
+	<author href="http://www.webdevelopmentlibrary.nl" email="info@kassenaar.com">
+		Peter Kassenaar
+	</author>
+
+
+	<icon src="icon.png"/>
+
+	<gap:splash src="/splash.png"/>
+
+	<gap:platform name="android"/>
+
+	<preference name="orientation" value="portrait"/>
+
+	<preference name="fullscreen" value="true"/>
+
+    <gap:plugin name="org.apache.cordova.device" version="0.2.12" />
+
+</widget>

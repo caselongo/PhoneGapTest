@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>PhoneGap Demo App</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+<div class="container">
+	<div class="panel panel-info">
+		<div class="panel-heading">
+			<h3 class="panel-title">Camera</h3>
+		</div>
+		<button id="btnCamera" class="btn btn-block btn-lg btn-primary">Maak foto</button>
+		<button id="btnPhotoLibrary" class="btn btn-block btn-lg btn-primary">Zoek foto op apparaat</button>
+		<img src="" alt="" id="imgPhoto" class="img-responsive"/>
+		<div id="divResult"></div>
+	</div>
+	<hr />
+	<a href="index.html" class="btn btn-block btn-lg btn-success">Start</a>
+</div>
+<!-- Scripts -->
+<script src="cordova.js"></script>
+<script src="js/lib/jquery.js"></script>
+<script src="js/pg.camera.js"></script>
+</body>
+</html>
